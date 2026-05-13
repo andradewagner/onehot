@@ -1,0 +1,6 @@
+{
+    "idf.currentSetup": "/home/wagner/esp-idf",
+    "C_Cpp.default.compileCommands": "${workspaceFolder}/build/compile_commands.json",
+    "C_Cpp.intelliSenseEngine": "default",
+    "C_Cpp.default.configurationProvider": "espressif.esp-idf-extension"
+}

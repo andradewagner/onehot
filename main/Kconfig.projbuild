@@ -1,0 +1,30 @@
+menu "OneHot - Configurações de Hardware"
+
+    config TEMP_SENSOR_ONEWIRE_GPIO
+        int "GPIO do Barramento OneWire para os sensores de temperatura (P4)"
+        default 17
+        help
+            Pino onde os 4 sensores DS18B20 estão conectados.
+
+    config SSR_HEATER_GPIO
+        int "GPIO do SSR para controle da resistência (P4)"
+        default 18
+        help
+            Pino para leitura da vazão principal.
+
+    config VALVE_COLD_GPIO
+        int "GPIO da Válvula Fria PWM (P3)"
+        default 6
+
+    config VALVE_HOT_GPIO
+        int "GPIO da Válvula Quente PWM (P3)"
+        default 7
+
+    config FLOW_SENSOR_COLD_GPIO
+        int "GPIO do Sensor de Fluxo da Água Fria (P3)"
+        default 15
+    
+    config FLOW_SENSOR_HOT_GPIO
+        int "GPIO do Sensor de Fluxo da Água Quente (P3)"
+        default 16
+endmenu

@@ -1,0 +1,23 @@
+{
+  "configurations": [
+    {
+      "name": "ESP-IDF",
+      "compilerPath": "/home/wagner/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc",
+      "cStandard": "c11",
+      "cppStandard": "c++17",
+      "compileCommands": "${config:idf.buildPath}/compile_commands.json",
+      "intelliSenseMode": "gcc-x86",
+      "includePath": [
+        "${workspaceFolder}/**"
+      ],
+      "browse": {
+        "path": [
+          "${workspaceFolder}"
+        ],
+        "limitSymbolsToIncludedHeaders": true
+      },
+      "configurationProvider": "espressif.esp-idf-extension"
+    }
+  ],
+  "version": 4
+}
